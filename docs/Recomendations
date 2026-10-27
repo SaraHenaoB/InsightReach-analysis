@@ -1,0 +1,17 @@
+# Recommendations
+
+## Review the “Interpreting Charts and Metrics” section in 01_EDA.ipynb
+
+### Findings:
+
+1.    The cities with the largest populations are Chicago, NYC, and Miami
+2.    Even when the sample and the cities are expanded, the trend remains the same, with the middle and upper classes predominating at 61.1%
+3.    Miami, NYC, and Phoenix have the highest average consumption, while Chicago and Houston have the lowest spending. Although the data does not vary much from its mean (black bar), it can be seen that spending is much higher in Miami and Phoenix than in Chicago, even though the latter has a larger population (this could indicate a lack of correlation between sales and the number of people in a city)
+4.    From the box-and-whisker plot showing the relationship between restaurant visit frequency and average spending per meal by socioeconomic class.
+5.    It is evident that consumers in the high and very high income brackets dominate the highest levels of interaction with restaurants. Specifically, the very high income bracket has a frequency of visits ranging from 4 to 10 times. The middle 50% of this group (between Q1 and Q3) spends approximately $35 to $90 per meal, maintaining a stable median (the center line of the box) around $65, regardless of whether they visit 4 or 10 times. For the middle and lower income groups, spending is concentrated below $20, and while the middle income group’s visit frequency rises slightly to 5 times, spending does not exceed $40. It is determined that this variable has a direct correlation with average monthly spending and visit frequency.
+6.    The distribution of monthly income versus monthly expenses shows a strong stepped pattern, with clearly defined thresholds: Low (Blue): Individuals with income ranging from the minimum to approximately $1,600; Medium (Orange): Individuals with incomes between $1,600 and $3,500; High (Green): Individuals with incomes between $3,500 and $9,000; Very High (Pink): Individuals with incomes above $9,000 up to the sample limit ($18,000). Higher income allows for greater purchase of the restaurant’s products.
+7.    After analyzing the interactions between sociodemographic, geographic, and behavioral variables—including preferences and spending—it is established that consumption in this sector is governed by a hierarchical structure of variables: Socioeconomic Status: The most important factor; it determines purchasing power for products. City of residence: Does not influence the number of people, but it can influence the environment and the cost of living. Food preferences: Found to have no effect on average spending; as seen in the heatmap, although there are more people in Chicago who prefer meat, this city has one of the lowest average consumption levels, to give an example.
+
+## _Recommendations:_
+1.    Focus the segmentation strategy on the very high-income segments by offering new “experiences” for diners at physical locations, as these locations see higher foot traffic. Since these customers are more drawn to physical locations, they tend to spend more (in proportion to their spending, according to the charts) while enjoying a “pleasant” experience
+2.    For the lower and middle socioeconomic segments, based on data from the city of Denver, “delivery” or “pickup” systems can be implemented to boost sales in these categories where foot traffic is low
